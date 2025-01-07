@@ -25,7 +25,9 @@ const Header = () => {
             <Portfolio/>
         </div>
         <div className="mx-1">
+            <Link href="/contact">
             <Contact/>
+            </Link>
         </div>
     </div>
   )
