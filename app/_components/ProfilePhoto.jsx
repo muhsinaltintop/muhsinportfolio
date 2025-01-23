@@ -3,9 +3,15 @@ import React from 'react'
 
 const ProfilePhoto = () => {
   return (
-    <div className="p-1 bg-white rounded-full ">
-        <Image src="/avatar.png" width="200" height="200" alt="avatar" className="object-cover rounded-full"/>
-    </div>
+    <div className="relative w-32 h-32 rounded-full overflow-hidden flex items-center justify-center m-auto  bg-white border-4">
+  <Image 
+    src="/muhsin.png" 
+    alt="avatar" 
+    width={200} 
+    height={200} 
+    className="object-cover"
+  />
+</div>
   )
 }
 
